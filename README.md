@@ -15,11 +15,17 @@
 
 ---
 
-### 🌍 Connect with me
+### 🌐 Languages
 
-💼 [LinkedIn](https://www.linkedin.com/in/mateus-ferreira-profissional-dev)
-<br>
-📫mateus.ferreira10profissional@gmail.com
+![Portuguese](https://img.shields.io/badge/Portuguese%20(BR)-009739?style=for-the-badge&logo=google-translate&logoColor=white)
+![English](https://img.shields.io/badge/English-1F75FE?style=for-the-badge&logo=google-translate&logoColor=white)
+
+---
+
+### 🤝 Connect with me
+
+💼 [LinkedIn](https://www.linkedin.com/in/mateus-ferreira-profissional-dev)  
+📫 **mateus.ferreira10profissional@gmail.com**
 
 ---
 
