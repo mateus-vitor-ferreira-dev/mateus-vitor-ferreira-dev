@@ -46,7 +46,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **MDMJ Transportes**<br>🌐 [Site](https://mdmjtransportes.com.br) | Freight management system + marketing site for a real transport company (in production). | Next.js · TypeScript · Prisma · PostgreSQL |
+| **MDMJ Transportes**<br>🌐 [Site](https://mdmjtransportes.com.br) · 🚀 [App](https://mdmj-transportes.vercel.app) | Freight management system + marketing site for a real transport company (in production). | Next.js · TypeScript · Prisma · PostgreSQL |
 | **Só+1**<br>🌐 [Site](https://so-mais-um.com) · 🚀 [App](https://app.so-mais-um.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/so-mais-um-web) | Platform to organize pickup games and book sports courts. | React · Node.js · REST API |
 | **Mob Burger**<br>🌐 [Site](https://mob-burger-landing.vercel.app) · 🚀 [App](https://mob-burger-web.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
 | **Codexa**<br>🌐 [Site](https://digitalcodexa.com) · 🚀 [App](https://app.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/codexa-landing) | Software & AI-automation studio — portal + serverless API. | Next.js · Three.js · GSAP · Hono · Cloudflare |
