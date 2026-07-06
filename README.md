@@ -57,7 +57,7 @@
 | **Mob Burger**<br>🌐 [Site](https://mob-burger-landing.vercel.app) · 🚀 [App](https://mob-burger-web.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
 | **Codexa**<br>🌐 [Site](https://digitalcodexa.com) · 🚀 [App](https://app.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/codexa-landing) | Software & AI-automation studio — portal + serverless API. | Next.js · Three.js · GSAP · Hono · Cloudflare |
 | **Recanto Vila Rica**<br>🌐 [Site](https://recanto-vila-rica-landing.vercel.app) · 🚀 [App](https://recanto-vila-rica.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/recanto-vila-rica-landing-page) | Reservation system with payments and role-based access. | REST · JWT · RBAC · Stripe |
-| **Chess (Xadrez)**<br>💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
+| **Chess (Xadrez)**<br>🚀 [App](https://xadrez-beige.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
 | **Marketing Crew** | Marketing automation with AI agents. | Python · FastAPI · CrewAI · Claude |
 
 ---
