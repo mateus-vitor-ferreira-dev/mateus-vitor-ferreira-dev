@@ -40,6 +40,12 @@
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 
+**🌱 Currently Learning**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![JPA / Hibernate](https://img.shields.io/badge/JPA_/_Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
 ---
 
 ### 🚀 Featured Projects
@@ -51,6 +57,7 @@
 | **Mob Burger**<br>🌐 [Site](https://mob-burger-landing.vercel.app) · 🚀 [App](https://mob-burger-web.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
 | **Codexa**<br>🌐 [Site](https://digitalcodexa.com) · 🚀 [App](https://app.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/codexa-landing) | Software & AI-automation studio — portal + serverless API. | Next.js · Three.js · GSAP · Hono · Cloudflare |
 | **Recanto Vila Rica**<br>🌐 [Site](https://recanto-vila-rica-landing.vercel.app) · 🚀 [App](https://recanto-vila-rica.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/recanto-vila-rica-landing-page) | Reservation system with payments and role-based access. | REST · JWT · RBAC · Stripe |
+| **Chess (Xadrez)**<br>💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
 | **Marketing Crew** | Marketing automation with AI agents. | Python · FastAPI · CrewAI · Claude |
 
 ---
