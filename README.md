@@ -71,7 +71,7 @@
 | **Mob Burger**<br>🌐 [Site](https://mob-burger-landing.vercel.app) · 🚀 [App](https://mob-burger-web.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
 | **Codexa**<br>🌐 [Site](https://digitalcodexa.com) · 🚀 [App](https://app.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/codexa-landing) | Software & AI-automation studio — portal + serverless API. | Next.js · Three.js · GSAP · Hono · Cloudflare |
 | **Mel & Afeto Açaí** | Digital menu for an açaí shop — the customer builds the order and sends it via WhatsApp. | Next.js · TypeScript · Vitest |
-| **Chess (Xadrez)**<br>🚀 [App](https://xadrez-beige.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
+| **Chess (Xadrez)**<br>🚀 [App](https://xadrez.desenvolvedoracodexa.workers.dev) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
 
 ### 🎓 Academic & Team Projects
 
