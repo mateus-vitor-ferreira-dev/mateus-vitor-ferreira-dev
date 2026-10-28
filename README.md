@@ -4,6 +4,7 @@
 🏛️ **Backend Java Developer at GEDAI — UFLA**, working on Spring Boot systems for the public sector.
 🏢 Founder of **[Codexa](https://digitalcodexa.com)**, a software & AI-automation studio.
 🚀 Always shipping: most of the projects below are live products, not just demos.
+🖥️ I run my own infrastructure: APIs and databases self-hosted on a **Hetzner VPS with Coolify**, frontends on **Cloudflare Workers**, every deploy gated by CI and verified against the commit that's live.
 ✨ I love programming because it turns imagination and logic into things people actually use.
 
 ---
@@ -45,8 +46,9 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Coolify](https://img.shields.io/badge/Coolify-6B16ED?style=for-the-badge&logo=coolify&logoColor=white)
+![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Auth · Payments · Testing**
@@ -65,21 +67,21 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **Festário** *(formerly Recanto Vila Rica)*<br>🌐 [Site](https://recanto-vila-rica-landing.vercel.app) · 🚀 [App](https://recanto-vila-rica.vercel.app) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/festario-web) | Multi-tenant SaaS for party-venue bookings — availability calendar, quotes, PDF contracts, card/PIX payments, chat and an owner dashboard. Recanto Vila Rica is the first venue on the platform. | React · Express · Prisma · PostgreSQL · Stripe · PIX |
-| **MDMJ Transportes**<br>🌐 [Site](https://mdmjtransportes.com.br) · 🚀 [App](https://mdmj-transportes.vercel.app) | Freight management system + marketing site for a real transport company (in production). | Next.js · TypeScript · Prisma · PostgreSQL |
+| **Festário** *(formerly Recanto Vila Rica)*<br>🌐 [Site](https://festario-landing-page.desenvolvedoracodexa.workers.dev) · 🚀 [App](https://festario-web.desenvolvedoracodexa.workers.dev) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/festario-web) | Multi-tenant SaaS for party-venue bookings — each venue sets its own packages, add-ons and policies; availability calendar, quotes, PDF contracts, an AI chat assistant and an owner dashboard. Recanto Vila Rica is the first venue on the platform. | React · Express · Prisma · PostgreSQL · Redis · Claude API |
+| **MDMJ Transportes**<br>🌐 [Site](https://mdmjtransportes.com.br) · 🚀 [App](https://app.mdmjtransportes.com.br) | Freight management system + marketing site for a real transport company (in production). | Next.js · TypeScript · Prisma · PostgreSQL |
 | **Só+1**<br>🌐 [Site](https://so-mais-um.com) · 🚀 [App](https://app.so-mais-um.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/so-mais-um-web) | Platform to organize pickup games and book sports courts. | React · Node.js · REST API |
-| **Mob Burger**<br>🌐 [Site](https://mob-burger-landing.desenvolvedoracodexa.workers.dev) · 🚀 [App](https://mob-burger-web.desenvolvedoracodexa.workers.dev) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
+| **Mob Burger**<br>🌐 [Site](https://mobburger.digitalcodexa.com) · 🚀 [App](https://pedidos.mobburger.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/mob-burger-web) | Food-ordering system — web, **mobile** and API. | Next.js · Expo/RN · Express · Prisma |
 | **Codexa**<br>🌐 [Site](https://digitalcodexa.com) · 🚀 [App](https://app.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/codexa-landing) | Software & AI-automation studio — portal + serverless API. | Next.js · Three.js · GSAP · Hono · Cloudflare |
 | **Mel & Afeto Açaí** | Digital menu for an açaí shop — the customer builds the order and sends it via WhatsApp. | Next.js · TypeScript · Vitest |
-| **Chess (Xadrez)**<br>🚀 [App](https://xadrez.desenvolvedoracodexa.workers.dev) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
+| **Chess (Xadrez)**<br>🚀 [App](https://xadrez.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/xadrez) | Full-stack chess game — study project exploring the Java/Spring ecosystem end to end. | Java · Spring Boot · Hibernate · React · TypeScript |
 
 ### 🎓 Academic & Team Projects
 
 | Project | Description | Stack |
 |---|---|---|
 | **Ampara**<br>💻 [Code](https://github.com/gxbreus/ampara) | Distributed platform connecting animal protectors, NGOs and adopters — microservices, API Gateway, BFFs and an adoption SAGA over RabbitMQ. *(team project — Distributed Systems)* | NestJS · FastAPI · Go · LangChain · PostgreSQL · MongoDB · Redis · Kubernetes |
-| **De volta à minha terra** | Intercity ride-sharing for university students heading back to their hometowns — one-off or recurring trips, cost split via PIX. *(Entrepreneurship in IS)* | Kotlin · Spring Boot · Vue 3 · Tailwind · PostgreSQL |
-| **Canteiro**<br>💻 [Code](https://github.com/mateus-vitor-ferreira-dev/canteiro) | Block-stacking game where the pile has mass: the backend recomputes the center of mass on every piece — lean too far and the building collapses. *(Applied Programming for Engineering)* | Java · Javalin · Svelte 5 · TypeScript · JUnit 5 |
+| **De volta à minha terra**<br>🚀 [App](https://devolta.digitalcodexa.com) | Intercity ride-sharing for university students heading back to their hometowns — one-off or recurring trips, cost split via PIX. Live in production: a single image with the Vue front and the Spring API, deployed by CI to Coolify with daily database backups. *(team project — Entrepreneurship in IS)* | Kotlin · Spring Boot · Vue 3 · Tailwind · PostgreSQL |
+| **Canteiro**<br>🎮 [Play](https://canteiro.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/canteiro) | Block-stacking game where the pile has mass: the backend recomputes the center of mass on every piece — lean too far and the building collapses. Real-time over WebSocket at 60 Hz, playable online or as a single JAR. *(Applied Programming for Engineering)* | Java · Javalin · Svelte 5 · TypeScript · JUnit 5 |
 
 ### 🛠️ Tools & Automation
 
