@@ -1,0 +1,61 @@
+# Gera os cartões de estatísticas do README e commita os SVGs aqui mesmo,
+# no lugar do fork do github-readme-stats que rodava na Vercel. O projeto
+# original foi descontinuado, e esta Action é a forma que os mantenedores
+# recomendam.
+#
+# Para contar os repositórios privados, o secret README_STATS_TOKEN precisa
+# ser um token com os escopos `repo` e `read:user`. Sem ele, o GITHUB_TOKEN
+# gera os cartões só com o que é público.
+name: Cartões do README
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # 06:00 em Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/cartoes.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartoes
+  cancel-in-progress: false
+
+jobs:
+  gera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Versão fixada pelo commit, e não pela tag: a Action recebe um token com
+      # acesso aos repositórios privados, e uma tag pode ser movida.
+      # fail_on_error: se a API falhar, o job fica vermelho e o cartão anterior
+      # continua no README, em vez de virar um "Something went wrong".
+      - name: Cartão de estatísticas
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&count_private=true
+          path: cards/stats.svg
+          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Cartão de linguagens
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true
+          path: cards/top-langs.svg
+          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Commita os cartões
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards/*.svg
+          git diff --cached --quiet && { echo "Os cartões não mudaram."; exit 0; }
+          git commit -m "chore: atualiza os cartões do README"
+          git push
