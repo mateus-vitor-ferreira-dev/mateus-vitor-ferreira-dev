@@ -94,8 +94,8 @@
 
 ### 📊 GitHub Stats
 
-![Stats](https://github-readme-stats-mateus-vitor-ferreira-devs-projects.vercel.app/api?username=mateus-vitor-ferreira-dev&show_icons=true&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats-mateus-vitor-ferreira-devs-projects.vercel.app/api/top-langs/?username=mateus-vitor-ferreira-dev&layout=compact&hide_border=true)
+![Stats](./cards/stats.svg)
+![Top Languages](./cards/top-langs.svg)
 
 ---
 
