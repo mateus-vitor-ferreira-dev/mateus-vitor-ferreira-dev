@@ -3,6 +3,7 @@
 💻 **Software Engineer** and Information Systems student at **UFLA** — I build real, production-grade products end to end, from REST/serverless APIs to web and mobile apps.
 🏛️ **Backend Java Developer at GEDAI — UFLA**, working on Spring Boot systems for the public sector.
 🏢 Founder of **[Codexa](https://digitalcodexa.com)**, a software & AI-automation studio.
+🪙 Creator of **[Vintém](https://vintem.dev)**, an open-source, self-hosted Pix gateway for Brazil.
 🚀 Always shipping: most of the projects below are live products, not just demos.
 🖥️ I run my own infrastructure: APIs and databases self-hosted on a **Hetzner VPS with Coolify**, frontends on **Cloudflare Workers**, every deploy gated by CI and verified against the commit that's live.
 ✨ I love programming because it turns imagination and logic into things people actually use.
@@ -16,6 +17,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -34,15 +37,18 @@
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![JPA / Hibernate](https://img.shields.io/badge/JPA_/_Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logoColor=white)
 
 **Data & Infra**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
@@ -50,16 +56,15 @@
 ![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F46800?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
 **Auth · Payments · Testing**
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-
-**🌱 Currently Learning**
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ---
 
@@ -67,6 +72,8 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| **Vintém**<br>🌐 [Site](https://vintem.dev) · 💻 [Code](https://github.com/vintemhq/vintem) | Self-hosted, multi-bank Pix gateway: no middleman fee. One binary speaks the Central Bank's Pix API, with an adapter per bank, mTLS certificates, normalized webhooks and Pix Automático, plus a TypeScript SDK and an MCP server for AI agents. *Open source, in alpha: the sandbox works and the Efí adapter has received real Pix payments.* | Go · TypeScript · Docker · MCP |
+| **Codelândia**<br>🎮 [Play](https://codelandia.digitalcodexa.com) | Free browser game that teaches programming, from the first logic steps to Git, GitHub, SQL, tests and CI. 12 regions and 80+ missions, with blocks or real JavaScript and Python. Everything runs in the browser, with no server, and it works offline. | React · TypeScript · Phaser · Blockly · Pyodide · isomorphic-git · sql.js · Playwright |
 | **Festário** *(formerly Recanto Vila Rica)*<br>🌐 [Site](https://festario-landing-page.desenvolvedoracodexa.workers.dev) · 🚀 [App](https://festario-web.desenvolvedoracodexa.workers.dev) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/festario-web) | Multi-tenant SaaS for party-venue bookings — each venue sets its own packages, add-ons and policies; availability calendar, quotes, PDF contracts, an AI chat assistant and an owner dashboard. Recanto Vila Rica is the first venue on the platform. | React · Express · Prisma · PostgreSQL · Redis · Claude API |
 | **MDMJ Transportes**<br>🌐 [Site](https://mdmjtransportes.com.br) · 🚀 [App](https://app.mdmjtransportes.com.br) | Freight management system + marketing site for a real transport company (in production). | Next.js · TypeScript · Prisma · PostgreSQL |
 | **Só+1**<br>🌐 [Site](https://so-mais-um.com) · 🚀 [App](https://app.so-mais-um.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/so-mais-um-web) | Platform to organize pickup games and book sports courts. | React · Node.js · REST API |
@@ -79,6 +86,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| **CompraFácil**<br>🚀 [App](https://compra-facil.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/compra-facil) | E-commerce split into microservices to survive promotional peaks: at 1,000 req/s, scaling only the catalog took p95 from 686 ms to 5 ms. A choreographed SAGA over Kafka with transactional outbox, and 0 failures in 1,202 orders with the catalog taken down mid-test. *(Monolith vs. Microservices coursework)* | Go · .NET · Kafka (Redpanda) · gRPC · PostgreSQL · Redis · OpenTelemetry · Next.js |
 | **Ampara**<br>💻 [Code](https://github.com/gxbreus/ampara) | Distributed platform connecting animal protectors, NGOs and adopters — microservices, API Gateway, BFFs and an adoption SAGA over RabbitMQ. *(team project — Distributed Systems)* | NestJS · FastAPI · Go · LangChain · PostgreSQL · MongoDB · Redis · Kubernetes |
 | **De volta à minha terra**<br>🚀 [App](https://devolta.digitalcodexa.com) | Intercity ride-sharing for university students heading back to their hometowns — one-off or recurring trips, cost split via PIX. Live in production: a single image with the Vue front and the Spring API, deployed by CI to Coolify with daily database backups. *(team project — Entrepreneurship in IS)* | Kotlin · Spring Boot · Vue 3 · Tailwind · PostgreSQL |
 | **Canteiro**<br>🎮 [Play](https://canteiro.digitalcodexa.com) · 💻 [Code](https://github.com/mateus-vitor-ferreira-dev/canteiro) | Block-stacking game where the pile has mass: the backend recomputes the center of mass on every piece — lean too far and the building collapses. Real-time over WebSocket at 60 Hz, playable online or as a single JAR. *(Applied Programming for Engineering)* | Java · Javalin · Svelte 5 · TypeScript · JUnit 5 |
