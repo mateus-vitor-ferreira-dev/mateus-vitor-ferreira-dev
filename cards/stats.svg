@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">mateus-ferreira-profissional-dev&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 27, Total Commits  (last year) : 5376, Total PRs: 2443, Total Issues: 1208, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 27, Total Commits  (last year) : 5553, Total PRs: 2468, Total Issues: 1233, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 72.06492333829371;
+        stroke-dashoffset: 72.06491787589988;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >5.4k</text>
+      >5.6k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >2.4k</text>
+      >2.5k</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
